@@ -1,0 +1,1 @@
+/usr/bin/c++    -msse -fopenmp -O3 -DNDEBUG   CMakeFiles/reg_ppcnr.dir/reg_ppcnr.cpp.o  -o reg_ppcnr -rdynamic ../reg-io/lib_reg_ReadWriteImage.a ../reg-io/png/libreg_png.a -lpng ../reg-io/nrrd/libreg_nrrd.a ../reg-lib/lib_reg_tools.a ../reg-io/nifti/libreg_nifti.a ../reg-lib/lib_reg_maths.a ../reg-io/nrrd/libreg_NrrdIO.a -lz 

@@ -32,6 +32,9 @@ RUN yum -y update && \
 # Copy binaries and other files
 ADD extra /extra
 
+# Set path for temporal lobe
+ENV PATH "${PATH}:/extra/antsbin/bin:/extra/nifti_reg_11_20_15/niftireg-git/build/reg-apps:/extra/ANTs-build/bin"
+
 # Set home directory in OUTPUTS folder
 ENV HOME /OUTPUTS/.local/home
 
