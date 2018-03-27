@@ -1,0 +1,5 @@
+---
+root:
+- INPUTS:
+    - T1.nii.gz // Raw T1 nifti image
+    - orig_target_seg.nii.gz // orig_target_seg.nii.gz file from Multi_Atlas
