@@ -3,7 +3,7 @@ This includes everything required to build a docker and corresponding singularit
 
 [Docker Hub](https://hub.docker.com/r/vuiiscci/temporal_lobe/tags/)
 
-Singularity Hub
+[Singularity Hub](https://www.singularity-hub.org/collections/828)
 
 # Build Instructions:
 Just clone and run `build.sh`:
