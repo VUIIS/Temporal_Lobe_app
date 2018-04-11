@@ -21,7 +21,7 @@ done
 
 # Build docker
 cd ..
-sudo docker build --rm -t vuiiscci/temporal_lobe .
+sudo docker build --rm -t vuiiscci/temporal_lobe:latest .
 
 # Push docker - note this only affects latest tag. Must retag and push if you want to give a specific tag
-sudo docker push vuiiscci/temporal_lobe
+sudo docker push vuiiscci/temporal_lobe:latest
